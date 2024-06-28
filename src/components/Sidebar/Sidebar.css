@@ -1,0 +1,71 @@
+.sidebar {
+  position: relative;
+  padding: 20px;
+}
+
+.search-bar {
+  margin-bottom: 16px;
+}
+
+.custom-search {
+  height: 50px;
+  padding: 0 20px;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+.section {
+  margin-bottom: 16px;
+}
+
+.section-title {
+  font-size: 18px;
+  color: #333;
+  margin-bottom: 12px;
+  padding-top: 16px;
+}
+
+.connected-component {
+  position: absolute;
+  top: 0;
+  right: -100%;
+  width: 92%;
+  height: 100%;
+  background-color: #fff;
+  transition: right 0.3s ease;
+  z-index: 100;
+  padding: 16px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.connected-component.active {
+  right: 0;
+}
+
+.panel-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.panel-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.sublabel {
+  margin-bottom: 4px;
+  display: block;
+}
+
+.connect-title {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 16.94px;
+}
